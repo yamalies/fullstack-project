@@ -18,6 +18,6 @@ CREATE TABLE IF NOT EXISTS blogs (
 );
 
 -- Insert sample data
-INSERT INTO todos (task) VALUES ('Learn Docker'), ('Learn Docker Compose'), ('Learn Docker Swarm');
+INSERT INTO todos (task) VALUES ('Learn Docker'), ('Learn Docker Compose');
 INSERT INTO blogs (title, content) VALUES ('First Blog', 'This is my first blog post'), ('Second Blog', 'This is my second blog post'), ('Third Blog', 'This is my third blog post');
 
